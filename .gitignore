@@ -1,0 +1,8 @@
+*.pro.user
+*.txt.user*
+/build-*/
+*~
+/deploy/*/build/
+/deploy/*/release/
+/kegotoolemul/
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>KegoTool</Name>
+    <Version>1.0</Version>
+    <Title>KegoTool Installer</Title>
+    <Publisher>Skiv</Publisher>
+	<InstallerWindowIcon>winicon.png</InstallerWindowIcon>
+    <StartMenuDir>Kego App</StartMenuDir>
+    <TargetDir>@ApplicationsDir@\Kego\KegoTool</TargetDir>
+</Installer>

@@ -1,0 +1,28 @@
+[
+    {
+        "name": "CRC8",
+        "init": "0",
+        "poly": "07",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+        
+    },
+    {
+        "name": "CRC8/CDMA",
+        "init": "FF",
+        "poly": "9B",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+        
+    },
+    {
+        "name": "CRC8/ITU",
+        "init": "0",
+        "poly": "07",
+        "xor": "55",
+        "refin": false,
+        "refout": false
+    }
+]

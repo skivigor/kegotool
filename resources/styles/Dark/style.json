@@ -1,0 +1,92 @@
+{
+    "theme": "qrc:/resources/images/theme/dark.jpg",
+    "logo": "qrc:/resources/images/logo/logo111.png",
+    "pane": {
+        "color": "#77404040",
+        "borderWidth": 1,
+        "borderColor": "transparent",
+        "dragBorderColor": "white"
+
+    },
+    "baud": {
+        "color": "#303030",
+        "borderColor": "#909090",
+        "text": {
+            "color": "#909090",
+            "selectColor": "white"
+        }
+    },
+    "byteDelegate": {
+        "color": "#202020",
+        "selectColor": "#707070",
+        "text": {
+            "color1": "white",
+            "color2": "orange",
+            "fontSize": 16
+        }
+    },
+    "popup": {
+        "color": "#cc000000",
+        "borderWidth": 1,
+        "borderColor": "#707070",
+        "topBar": {
+            "color1": "#000000",
+            "color2": "#505050",
+            "color3": "#222222"
+        },
+        "hoverColor": "#77404040"
+    },
+    "script": {
+        "delegate": {
+            "color": "#77404040",
+            "hoverColor": "#77606060",
+            "borderWidth": 1,
+            "borderColor": "#707070"
+        },
+        "log": {
+            "color": "#77404040",
+            "selectColor": "#707070"
+        }
+    },
+    "checksum": {
+        "fontSize": 18,
+        "color1": "orange",
+        "color2": "lightgreen",
+        "color3": "red"
+    },
+    "text": {
+        "header": {
+            "fontSize": 18,
+            "color": "lightskyblue"
+        },
+        "header2": {
+            "fontSize": 18,
+            "color": "#909090"
+        },
+        "label": {
+            "fontSize": 16,
+            "color": "white"
+        },
+        "label2": {
+            "fontSize": 16,
+            "color": "orange"
+        },
+        "label3": {
+            "fontSize": 18,
+            "color": "white"
+        },
+        "substring": {
+            "fontSize": 14,
+            "color": "#a0a0a0"
+        },
+        "link": {
+            "fontSize": 18,
+            "color": "orange"
+        }
+    },
+    "textArea": {
+        "color": "white"
+    }
+}
+
+

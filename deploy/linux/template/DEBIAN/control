@@ -1,0 +1,9 @@
+Package: KegoTool
+Priority: optional
+Maintainer: Skiv <skivigor@gmail.com>
+Version: 1.0.1
+Homepage: 
+Architecture: amd64
+Depends: libstdc++6 (>= 12.3.0), libgcc-s1 (>= 12.3.0), libc6 (>= 2.35)
+Description: This package contains the KegoTool
+

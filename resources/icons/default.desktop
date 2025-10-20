@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=default
+Exec=AppRun %F
+Icon=default
+Comment=Program default (Kego)
+Categories=Engineering;TerminalEmulator;
+Terminal=false

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "CRC64/ECMA182",
+        "init": "0",
+        "poly": "42F0E1EBA9EA3693",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC64/WE",
+        "init": "FFFFFFFFFFFFFFFF",
+        "poly": "42F0E1EBA9EA3693",
+        "xor": "FFFFFFFFFFFFFFFF",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC64/XZ",
+        "init": "FFFFFFFFFFFFFFFF",
+        "poly": "42F0E1EBA9EA3693",
+        "xor": "FFFFFFFFFFFFFFFF",
+        "refin": true,
+        "refout": true
+    }
+]
+

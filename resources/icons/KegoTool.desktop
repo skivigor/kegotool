@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=KegoTool
+Exec=AppRun %F
+Icon=KegoTool
+Comment=Edit this default file
+Categories=Qt;
+Terminal=false

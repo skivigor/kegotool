@@ -1,0 +1,18 @@
+#!/bin/bash
+
+APPS=("KegoTool")
+APPS_SHORTCUTS=("KegoTool.sh")
+
+for app in "${APPS[@]}"
+do
+
+    if [ -e /usr/bin/"${app,,}" ]; then
+        rm /usr/bin/"${app,,}"
+        echo "Remove ${app,,}"
+    fi
+done
+
+for app in "${APPS_SHORTCUTS[@]}"
+do
+    rm "/usr/share/applications/${app%.*}.desktop"
+done

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "CRC32",
+        "init": "FFFFFFFF",
+        "poly": "4C11DB7",
+        "xor": "FFFFFFFF",
+        "refin": true,
+        "refout": true
+    },
+    {
+        "name": "CRC32/POSIX",
+        "init": "0",
+        "poly": "4C11DB7",
+        "xor": "FFFFFFFF",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC32/XFER",
+        "init": "0",
+        "poly": "AF",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+    }
+]
+

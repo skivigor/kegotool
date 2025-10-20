@@ -1,0 +1,43 @@
+[
+    {
+        "name": "CRC16/CCIT_ZERO",
+        "init": "0",
+        "poly": "1021",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC16/CCIT",
+        "init": "0",
+        "poly": "1021",
+        "xor": "0",
+        "refin": true,
+        "refout": true
+    },
+    {
+        "name": "CRC16/CCIT_FALSE",
+        "init": "FFFF",
+        "poly": "1021",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC16/AUG_CCIT",
+        "init": "1D0F",
+        "poly": "1021",
+        "xor": "0",
+        "refin": false,
+        "refout": false
+    },
+    {
+        "name": "CRC16/XMODEM",
+        "init": "0",
+        "poly": "1021",
+        "xor": "0",
+        "refin": true,
+        "refout": true
+    }
+]
+
