@@ -1,14 +1,14 @@
 # KegoTool application
 
 The **KegoTool** application is a cross-platform application for hardware developers and engineers who need a tool to interact with devices via a serial interface.
-This is **free software**, distributed under a license **[GNU General Public License версии 3](https://www.gnu.org/licenses/)**. The **[Qt5 (5.15.2)](https://doc.qt.io/archives/qt-5.15)** libraries were used in the development, graphical interface is implemented using **[QML](https://doc.qt.io/archives/qt-5.15/topics-ui.html)**
+This is **free software**, distributed under a license **[GNU General Public License version 3](https://www.gnu.org/licenses/)**. The **[Qt5 (5.15.2)](https://doc.qt.io/archives/qt-5.15)** libraries were used in the development, graphical interface is implemented using **[QML](https://doc.qt.io/archives/qt-5.15/topics-ui.html)**
 
 Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
 
 ![Interface](doc/images/main.png)
 
 
-#### Main functions
+#### Key features
 - byte-oriented terminal
 - support for automation using scripts (JavaScript)
 - calculating CRC checksums for data and files
@@ -17,11 +17,11 @@ Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
 
 
 ## Byte-oriented serial terminal
-#### Main functions
-- configuring port parameters
-- parameters and RX data window
-- parameters and TX data window
-- automation [scripts](#script) (JavaScript)
+#### Allows the user to
+- configure port parameters
+- manage RX data window parameters
+- manage TX data window parameters
+- create automation [scripts](#script) (JavaScript)
 
 #### Data input and display modes
 - asci
@@ -34,10 +34,10 @@ Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
 ![History](doc/images/history.png)
 
 #### Data context menu
-- copying data in asci format
-- copying data in bin format
-- copying data in hex format
-- additional information about the data
+- copy data in asci format
+- copy data in bin format
+- copy data in hex format
+- view detailed information about the data
 
 ![Context menu](doc/images/bytes_menu.png)
 
@@ -51,8 +51,8 @@ Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
 Scripts [directory](#cfg)
 
 #### Context menu
-- editing a script in the default system editor
-- deleting a script
+- edit a script in the default system editor
+- delete a script
 
 ![Context menu](doc/images/scripts.png)
 
@@ -116,9 +116,9 @@ Scripts [directory](#cfg)
     getVoltage()
 
 ## Checksums
-- calculation **CRC** (CRC-8, CRC-16, CRC-32, CRC-64)
-- calculation **Hash**
-- file **comparison** (comparison is provided by calculating Sha-256 for files)
+- calculates **CRC** (CRC-8, CRC-16, CRC-32, CRC-64)
+- calculates **Hash**
+- **compare** files (provided by calculating Sha-256 for files)
 
 > The user can add his own CRC types to the [configuration files](#cfg)
 
