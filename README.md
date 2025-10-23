@@ -1,6 +1,6 @@
 # KegoTool application
 
-The **KegoTool** application is a cross-platform application for hardware developers and engineers who need a tool to interact with devices via a serial interface.
+The **KegoTool** is app for hardware developers and engineers who need a tool to interact with devices via a serial interface (terminal).
 This is **free software**, distributed under a license **[GNU General Public License version 3](https://www.gnu.org/licenses/)**. The **[Qt5 (5.15.2)](https://doc.qt.io/archives/qt-5.15)** libraries were used in the development, graphical interface is implemented using **[QML](https://doc.qt.io/archives/qt-5.15/topics-ui.html)**
 
 Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
@@ -8,7 +8,7 @@ Linux and Windows builds: [Page](https://github.com/skivigor/kegotool/releases)
 ![Interface](doc/images/main.png)
 
 
-#### Key features
+# Key features
 - byte-oriented terminal
 - support for automation using scripts (JavaScript)
 - calculating CRC checksums for data and files
